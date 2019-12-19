@@ -5,7 +5,7 @@ This is Netdata's Pulsar Helm repository.
 To use this repo with helm, add the repository:
 
 ```
-helm repo add netdata-pulsar https://...
+helm repo add netdata-pulsar https://netdata.github.io/pulsar/helmrepo/
 helm repo update
 ```
 
