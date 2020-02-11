@@ -18,13 +18,6 @@ helm install pulsar netdata-pulsar/pulsar
 # Update helm package repo
 
 ```
-git worktree add src master
-
-helm package src/deployment/kubernetes/helm/pulsar/
-helm repo index .
-
-git worktree remove src
+./update.sh
+git push
 ```
-
-replace `master` with the commit-ish revision you want to build helm
-package for.
