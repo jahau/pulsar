@@ -1,7 +1,8 @@
 #!/bin/sh
 set -xe
 
-PKG_VER="0.0.1-$(git rev-parse master)"
+GIT_REV=${1:-master}
+PKG_VER="0.0.1-$(git rev-parse "${GIT_REV}")"
 
 (
   git worktree add src master
@@ -16,8 +17,7 @@ git commit -m "Added package version ${PKG_VER}"
 set +x
 cat <<EOF
 
-Packaged and committed pulsar version ${PKG_VER}
+Packaged and committed version ${PKG_VER} from ${GIT_REV}
 Inspect the commit with \`git show\` and if happy, \`git push\`
 
 EOF
-
