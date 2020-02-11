@@ -5,7 +5,7 @@ GIT_REV=${1:-master}
 PKG_VER="0.0.1-$(git rev-parse "${GIT_REV}")"
 
 (
-  git worktree add src master
+  git worktree add src "${GIT_REV}"
   trap 'git worktree remove src' EXIT
   helm package --version "${PKG_VER}" src/deployment/kubernetes/helm/pulsar/
   helm repo index .
