@@ -3,7 +3,7 @@ entries:
   pulsar:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-02-14T15:24:31.09347942+11:00"
+    created: "2020-02-14T15:51:49.45667074+11:00"
     description: Apache Pulsar Helm chart for Kubernetes
     digest: 6a15de49271b4e6b9f538178d395beb04a1e0a1c6d3b480c28833dde8b6cbaba
     name: pulsar
@@ -12,7 +12,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-02-14T15:24:31.091167741+11:00"
+    created: "2020-02-14T15:51:49.454719446+11:00"
     description: Apache Pulsar Helm chart for Kubernetes
     digest: 1bed5976b44acfab10900b6ac3259e618d05dde00fa9222755b9a832c53231c0
     name: pulsar
@@ -21,11 +21,20 @@ entries:
     version: 0.0.1-e1f3409fd45b26bafb44c321f99f853ebbc50109
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-02-14T15:24:31.087778063+11:00"
+    created: "2020-02-14T15:51:49.452476132+11:00"
+    description: Apache Pulsar Helm chart for Kubernetes
+    digest: 869eb806379b68eb19c27491e3fb814337df41f122c738b82954672e9d0267f1
+    name: pulsar
+    urls:
+    - pulsar-0.0.1-d3ec6207e78919210dc9d984664d3b69fa52febd.tgz
+    version: 0.0.1-d3ec6207e78919210dc9d984664d3b69fa52febd
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-02-14T15:51:49.448518855+11:00"
     description: Apache Pulsar Helm chart for Kubernetes
     digest: 58204c5a9cdd21a663539d25a21af93255604469241d5b5db6b38bc907b4829d
     name: pulsar
     urls:
     - pulsar-0.0.1-2e1c74aa78e58c5788ae117dede594e6387949e3.tgz
     version: 0.0.1-2e1c74aa78e58c5788ae117dede594e6387949e3
-generated: "2020-02-14T15:24:31.083903166+11:00"
+generated: "2020-02-14T15:51:49.445996029+11:00"
